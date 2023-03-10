@@ -4,7 +4,7 @@ function Navbar() {
     <>
         <nav className='Navbar'>
            <div className="navbar-container">
-            <h1>yo</h1>
+            <h1>yo gohar</h1>
            </div>
         </nav>
     </>
