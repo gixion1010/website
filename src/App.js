@@ -1,5 +1,5 @@
 import './App.css';
-import navbar from './components/navbar';
+import Navbar from './components/navbar';
 import {
   BrowserRouter as Router,
   Routes,
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Router>
-        <navbar/>
+        <Navbar/>
         <Routes>
           <Route path='/' exact />
         </Routes>

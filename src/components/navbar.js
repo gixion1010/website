@@ -1,18 +1,14 @@
-import React, {useState} from 'react'
-import {Link} from 'react-router-dom';
-function navbar() {
-  const [click, setClick] = useState(false);
+import React, {useState} from 'react';
+function Navbar() {
     return (
     <>
         <nav className='Navbar'>
            <div className="navbar-container">
-            <Link to = '/' className='navbar-logo' >
-                UG 
-            </Link>
+            <h1>yo</h1>
            </div>
         </nav>
     </>
   )
 }
 
-export default navbar
+export default Navbar;
